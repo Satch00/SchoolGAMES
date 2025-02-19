@@ -1,0 +1,51 @@
+ body {
+    background-color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+ }
+
+ h1 {
+    color: beige;
+    width: 300px;
+    margin: auto;
+ }
+
+ li {
+    color: aqua;
+    list-style-type: none;
+ }
+
+ a {
+    color: whitesmoke;
+ }
+
+ .game {
+    height: 300px;
+    width: 200px;
+    margin: 5px;
+    border-radius: 14px;
+    transform: skewX(-10deg);
+}
+
+ .games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+ }
+
+ .game:hover {
+     transform: scale(1.2) skewX(-10deg);
+     transition: 0.5s;
+     margin: 20px;
+     margin-top: 30px;
+}
+
+.info-games {
+    margin: auto;
+    height: 600px;
+    background-color: gray;
+    border-radius: 50px;
+    opacity: 20%;
+    visibility: hidden;
+    box-shadow: 0 0 50px rgba(250, 250, 250, 1);
+}
