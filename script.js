@@ -14,6 +14,15 @@ function Join(element){
         console.log("o botão com id " + element.querySelector('img').id + " foi fechado")
         elemento.style.visibility = 'hidden';
     }
+
+}
+
+function butt(){
+    switch (element.querySelector('img').id){
+        case "game0":
+                var minecraft = "satch00.github.io/SchoolGAMES/mine1.html"
+                document.getElementById("button").onclick = minecraft;
+    }
 }
 
 /**     
