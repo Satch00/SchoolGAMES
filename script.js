@@ -1,9 +1,12 @@
+let jogoselecionado = null;
+
 function doom(){
     window.location.href = 'https://satch00.github.io/SchoolGAMES/doom.pdf'
 }
 
 function Join(element){
     var elemento = document.querySelector('.info-games');
+    jogoselecionado = element.querySelector('img').id;
     if (elemento.style.visibility == 'hidden'){
         console.log("o botão com id " + element.querySelector('img').id + " foi aberto")
         elemento.style.visibility = 'visible';
@@ -18,7 +21,7 @@ function Join(element){
 }
 
 function butt(){
-    switch (element.querySelector('img').id){
+    switch (jogoselecionado){
         case "game0":
                 console.log("Abrindo minecraft . . .");
                 var minecraft = "https://satch00.github.io/SchoolGAMES/mine1.html";
