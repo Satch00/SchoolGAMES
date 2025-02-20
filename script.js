@@ -20,7 +20,7 @@ function Join(element){
 function butt(){
     switch (element.querySelector('img').id){
         case "game0":
-                console.log("Abindo minecraft . . .");
+                console.log("Abrindo minecraft . . .");
                 var minecraft = "https://satch00.github.io/SchoolGAMES/mine1.html";
                 document.getElementById("button").onclick = minecraft;
     }
