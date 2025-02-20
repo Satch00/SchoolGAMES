@@ -19,7 +19,7 @@ function Join(element){
 
 function butt(){
     switch (element.querySelector('img').id){
-        case "game0":
+        case game0:
                 var minecraft = "satch00.github.io/SchoolGAMES/mine1.html"
                 document.getElementById("button").onclick = minecraft;
     }
