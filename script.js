@@ -25,6 +25,7 @@ function butt(){
         case "game0":
                 console.log("Abrindo minecraft . . .");
                 window.location.href = 'https://satch00.github.io/SchoolGAMES/EaglercraftX_1.8_WASM-GC_Offline_Download/mine1.html';
+                //window.location.href = 'https://satch00.github.io/SchoolGAMES/EaglercraftX_1.8_WASM-GC_Offline_Download/mine2.html';
                 break;
             
         case "game3":
