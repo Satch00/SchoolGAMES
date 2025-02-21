@@ -24,7 +24,7 @@ function butt(){
     switch (jogoselecionado){
         case "game0":
                 console.log("Abrindo minecraft . . .");
-                var minecraft = "https://satch00.github.io/SchoolGAMES/mine1.html";
+                var minecraft = "https://satch00.github.io/EaglercraftX_1.8_WASM-GC_Offline_Download/mine1.html";
                 document.getElementById("button").onclick = minecraft;
     }
 }
