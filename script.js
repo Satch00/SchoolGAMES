@@ -40,7 +40,7 @@ function butt(){
 
         case "game5":
                 console.log("Abrindo Celeste Classic");
-                window.location.href = 'https://satch00.github.io/SchoolGAMES/celeste_practice_mod.html';
+                window.location.href = 'https://satch00.github.io/SchoolGAMES/CELESTE/celeste_practice_mod.html';
                 break;
     }
 }
