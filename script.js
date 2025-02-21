@@ -1,8 +1,10 @@
 let jogoselecionado = null;
 
+/**
 function doom(){
     window.location.href = 'https://satch00.github.io/SchoolGAMES/doom.pdf'
 }
+**/
 
 function Join(element){
     var elemento = document.querySelector('.info-games');
