@@ -31,6 +31,10 @@ function butt(){
                 console.log("Abrindo doom PDF . . .");
                 window.location.href = 'https://satch00.github.io/SchoolGAMES/doom.pdf';
                 break;
+
+        case "game4":
+                console.log("Abrindo Superfighters");
+                window.location.href = 'https://html5.gamedistribution.com/a7a878d376bf4223adc51d2ba04fb77c/';
     }
 }
 
