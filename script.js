@@ -10,9 +10,6 @@ function Join(element){
     if (elemento.style.visibility == 'hidden'){
         console.log("o botão com id " + element.querySelector('img').id + " foi aberto")
         elemento.style.visibility = 'visible';
-        if ( element.querySelector('img').id == "game3"){
-            doom()
-        }
     }else{
         console.log("o botão com id " + element.querySelector('img').id + " foi fechado")
         elemento.style.visibility = 'hidden';
@@ -25,6 +22,9 @@ function butt(){
         case "game0":
                 console.log("Abrindo minecraft . . .");
                 window.location.href = 'https://satch00.github.io/SchoolGAMES/EaglercraftX_1.8_WASM-GC_Offline_Download/mine1.html';
+        case "game3":
+                console.log("Abrindo doom PDF . . .");
+                window.location.href = 'https://satch00.github.io/SchoolGAMES/doom.pdf'
     }
 }
 
