@@ -20,6 +20,7 @@ function Join(element){
 }
 
 function butt(){
+    console.log("JOGO:" + jogoselecionado);
     switch (jogoselecionado){
         case "game0":
                 console.log("Abrindo minecraft . . .");
