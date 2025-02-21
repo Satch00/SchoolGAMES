@@ -37,6 +37,10 @@ function butt(){
                 console.log("Abrindo Superfighters");
                 window.location.href = 'https://html5.gamedistribution.com/a7a878d376bf4223adc51d2ba04fb77c/';
                 break;
+
+        case "game5":
+                console.log("Abrindo Celeste Classic");
+                window.location.href = 
     }
 }
 
